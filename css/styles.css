@@ -91,7 +91,8 @@ letter-spacing: 0.02em;
 .button {
     display: flex;
     align-items: center;
-    
+    border: 1px solid var(--accent-bg-cl);
+    border-radius: var(--border-radius);
     letter-spacing: 0.04;
     
     cursor: pointer;
