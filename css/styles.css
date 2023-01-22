@@ -243,15 +243,14 @@ margin-right: 40px;
 */
 
 .footer {
+padding-top: 100px;
+padding-bottom: 100px;
 color: var(--accent-txt-cl);
 background-color: var(--dark-bg-cl);
 }
 
-.footer-main {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 .logo-footer{
+display: block;
 width: 115px;
 margin-bottom: 16px;
 color: var(--light-txt-cl);
@@ -285,13 +284,14 @@ font-weight: 800;
 */
 
 .hero{
+    padding-top: 188px;
+        padding-bottom: 188px;
 text-align: center;
 background-color:var(--dark-bg-cl);
 }
  
 .hero-box {
-    padding-top: 188px;
-    padding-bottom: 188px;
+  
     }
 
 
@@ -389,28 +389,24 @@ background: var(--light-bg-cl);
     gap: var(--indent);
     --items: 4;
     flex-basis: calc((100% - var(--indent) * (var(--items)-1)) / var(--items));
-     padding-top: 72px;
-        
-    }
+     margin-top: 72px;
+            }
+.team-item {
+padding: 32px 0px 32px 0px;
+}
 .person{
     background-color: var(--white-bg-cl);
     width: 264px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
     border-radius: 0px 0px 4px 4px
-
 }
+
 .team-title {
     text-align: center;
 }
 
 .team-text {
     text-align: center;
+    margin-top: 8px;
 }
 
 /**
@@ -505,8 +501,8 @@ background: var(--light-bg-cl);
 .button-filter-design:focus {
     color: var(--white-txt-cl);
     background-color: var(--pressed-bg-cl);
-
-}.button-filter-marketing {
+}
+.button-filter-marketing {
     color: var(--primery-txt-cl);
     background-color: var(--light-bg-cl);
     font-size: 16px;
@@ -547,10 +543,7 @@ background: var(--light-bg-cl);
     color: currentColor;
 }
 
-.example-link:hover,
-.example-link:focus {
-    color: var(--pressed-bg-cl);
-}
+
 .example-item {
     padding-top: 32px;
     padding-bottom: 32px;
